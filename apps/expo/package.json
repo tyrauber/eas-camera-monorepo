@@ -2,6 +2,7 @@
   "name": "@eas-camera-monorepo/expo",
   "version": "1.0.0",
   "scripts": {
+    "build": "echo 'Nothing to build'",
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
