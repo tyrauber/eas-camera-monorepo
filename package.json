@@ -1,0 +1,14 @@
+{
+  "name": "eas-camera-monorepo",
+  "private": true,
+  "description": "Testing Android Camera on EAS / Expo 43",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "test": "yarn workspaces run test",
+    "expo": "yarn workspace @eas-camera-monorepo/expo"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
